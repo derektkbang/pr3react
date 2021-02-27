@@ -1,0 +1,13 @@
+.imagelist {
+background: white;
+color: gray;
+padding: 20px;
+}
+
+.imagelist img {
+    margin: auto;
+    width: 200px;
+}
+.text{
+    background-color: lightblue;
+}
