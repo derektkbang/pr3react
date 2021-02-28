@@ -5,15 +5,12 @@ import './style.css';
 function Emaildata(){
     return(
 <body>
-    <form>
     <label for="email">E-Mail Address:</label><br></br>
     <br></br>
     <input type="text" id="email" name="email"></input>
     <br></br>
     <br></br>
-    <button type="submit" onClick={check(document.getElementById('email').value)}>Submit</button>
-    </form>
-    <p id="output"></p>
+    <button type="submit" >Submit</button>
     <script defer type='text/jsx'>
         {
 

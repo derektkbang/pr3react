@@ -6,7 +6,7 @@ function Textdata() {
     return(
         <div>
         <body>
-        <form action="index.html">
+        <form action="index.js">
                     <label for="fName">First name: </label>
                     <br></br>
                     <input type="text" id="fName" name="First"></input>
