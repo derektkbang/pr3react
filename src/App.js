@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import Body from './component/body'
@@ -21,8 +20,7 @@ function App() {
   },{
       id:4,
       title:'email'
-  }
-]
+  }]
 const changetab =(id) =>{
   setactive(id)
 }
@@ -33,13 +31,10 @@ return (
         <Tablist tabs ={tabs} activetab={active} ctab ={changetab}/>
       </div>
       <div className="main-body">
-        <Body acyivetab ={this.state.active}/>
+        <Body activetab ={active}/>
       </div>
   </div>
-
-);
-
-
+  );
 }
 
 export default App

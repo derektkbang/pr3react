@@ -5,7 +5,6 @@ import "./style.css";
 function Imagedata() {
     var img = require("./seb.png")
     return (
-        <div>
 <body>
         <div>
             <h1>Image</h1>
@@ -14,7 +13,6 @@ function Imagedata() {
 
 
 </body>
-</div>
     )
 }
 
