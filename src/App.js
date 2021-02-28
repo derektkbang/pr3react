@@ -8,25 +8,29 @@ function App() {
   const[active,setactive] = useState(1)
   const tabs =[{
       id:1,
-      title:'Video'
+      title:'Text'
   },
   {
       id:2,
       title: 'Image'
   },
   {
-      id:3,
-      title:'table'
-  },{
+    id:3,
+    title: 'Video'
+},
+  {
       id:4,
-      title:'email'
+      title:'Table'
+  },{
+      id:5,
+      title:'Email'
   }]
 const changetab =(id) =>{
   setactive(id)
 }
 return (
   <div className="App">
-      <h1>Tabs Demo</h1>
+      <h1>Graphic Design is my Passion</h1>
       <div className="nav-bar">
         <Tablist tabs ={tabs} activetab={active} ctab ={changetab}/>
       </div>

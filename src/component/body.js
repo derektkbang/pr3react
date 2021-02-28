@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import Videodata from './page1';
-import Imagedata from './page2';
+import Emaildata from './email';
+import Videodata from './video';
+import Imagedata from './image';
 import './style.css'
+import Tabledata from './table';
+import Textdata from './text';
 
 class Body extends Component {
 
@@ -9,13 +12,20 @@ class Body extends Component {
 
         var displaycontent = ()=>{
             var activetab = this.props.activetab;
-            if(activetab==1){
+            if(activetab===1){
+                return <Textdata/>
+            }
+            else if (activetab===2){
+                return <Imagedata/>
+            }
+            else if (activetab===3){
                 return <Videodata/>
             }
-            else if (activetab==2){
-                return <Imagedata/>
-            }else{
-                return <div className ="text">page 3</div>
+            else if(activetab===4){
+                return <Tabledata/>
+            }
+            else{
+                return <Emaildata/>
             }
 
         }

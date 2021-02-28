@@ -4,8 +4,6 @@ import Itab from './indtab';
 
 class Tablist extends Component {
     render() {
-        console.log("id is "+this.props.activetab)
-
         return (
 
             this.props.tabs.map((tab)=>

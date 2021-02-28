@@ -1,18 +1,27 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import "./style.css";
-
+import './style.css';
+import Max from './images/max.png'
 function Imagedata() {
-    var img = require("./seb.png")
     return (
-<body>
         <div>
-            <h1>Image</h1>
-            <img src ={img.default}/>
-        </div>
+<body>
+<div class="wrapper">
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+        <img src={Max} alt="old club penguin"></img>
+    </div>
 
 
 </body>
+</div>
     )
 }
 
